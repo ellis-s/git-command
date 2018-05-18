@@ -38,6 +38,41 @@
 
 **更新与合并：
 
+  git pull 
+  更新本地仓库至最新改动
+
+  git merge <branch>
+  合并其他分支到当前分支
+
+  git diff <source_branch> <target_branch>
+  在合并之前，预览差异
+
+**log
+
+  git log
+  查看本地仓库的历史记录
+
+  git log --author=bob
+  只查看bob提交的记录
+
+  git log --pretty=oneline
+  一个压缩后的每一条提交记录只占一行的输出
+
+  git log --graph --oneline -- decorate --all
+  通过ASCII艺术的树形结构来展示所有的分支，每个分支都表示了他的名字和标签
+
+  git log --name-status
+  查看哪些文件改变了
+
+  git log --help
+  更多信息 
+
+
+  git config color.ui true
+  彩色的git输出
+
+  
+
 
 
 
